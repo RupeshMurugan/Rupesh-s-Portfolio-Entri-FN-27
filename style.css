@@ -1,0 +1,106 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+body
+{
+    margin: 20px;
+    background-image: url("Assets/Wallpaper.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    color: antiquewhite;
+
+}
+.PF{
+    display:flex;
+}
+.A{
+    position: absolute;
+    top: 40px;
+    right: 30px;
+}
+
+.A a, .B a{
+    margin: 5px;
+    padding: 3px;
+    color: azure;
+    text-decoration: none;
+    background-color: rgba(161, 71, 14, 0.903);
+    border-radius: 10px;
+    border: 2px solid rgba(128, 128, 128, 0.642);
+}
+.A a:hover, .B a:hover
+{
+    color: bisque;
+    font-size: 18px;
+}
+div
+{
+    padding: 7px;
+}
+#png,img
+{
+vertical-align:text-bottom;
+margin:3px 0;
+}
+main h2{
+    margin-left: 20px;
+}
+.Co{
+margin-left: 30px;
+width: 200px;
+height: 200px;
+border-radius: 50%;
+background-color: #D9D9D9;
+display: flex;
+justify-content: center;
+align-items: center;
+overflow: hidden;
+position: relative;
+}
+.Co img{
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: cover;
+    transform: translateY(5%);
+    
+}
+#AM,#PR{
+    color: chocolate;
+    font-size: 30px;
+}
+#AM:hover, #PR:hover{
+    font-size: 35px;
+    color:rgb(208, 126, 18);
+    text-decoration: underline;
+}
+.MyPro{
+    display: flex;
+}
+#P1,#P2,#P3{
+background-color: gray;
+color: whitesmoke;
+border: 1PX solid chocolate;
+margin: 0 10pX;
+padding: 10px;
+border-radius: 10px;
+}
+#P1:hover,#P2:hover,#P3:hover{
+transform: scale(1.05);
+cursor: pointer;
+
+}
+h3{
+color:maroon;
+}
+footer p, address{
+text-align: center;
+}
+.B{
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+}
