@@ -6,7 +6,7 @@
 body
 {
     margin: 20px;
-    background-image: url("Assets/Wallpaper.jpg");
+    background-image: url("Wallpaper.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     height: 100vh;
@@ -104,3 +104,4 @@ text-align: center;
     align-items: center;
     justify-content: center;
 }
+
