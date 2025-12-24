@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form></title>
+    <style>
+           *{
+    
+    padding: 0;
+}
+body{
+     margin: 20px;
+    background-image: url("Wallpaper.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    color: antiquewhite;
+}
+body h1{
+    text-align: center;
+
+}
+form{
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+    margin-left: 300px;
+    padding: 0 30px;
+    width: 800px;
+
+    }
+label{
+    display: block;
+    margin: 10px 0;
+}
+div h2{
+    margin: 10px 0;
+    color: green;
+    font-weight: bolder;
+}
+
+button{
+    padding: 10px;
+    margin: 10px;
+}
+.Button{
+    text-align: center;
+}
+span{
+    color: red;
+}
+.Group1{
+    display: flex;
+    justify-content: space-between;   
+}
+.Group2{
+    display: flex;
+    justify-content: space-between;
+}
+section{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0;
+}
+    </style>
+</head>
+<body>
+    <h1>Registration Form</h1><br><br>
+    
+    <form>
+        <div class="Group1">
+            <div class="PD">
+                <h2>Personal Details</h2>
+                <section><label><span>*</span>Full Name:</label>
+                <input type="text" required></section>
+                <section><label><span>*</span>Date of Birth:</label>
+                <input type="Date" required></section>
+                <section> <label><span>*</span>Gender:</label>
+                <input type="radio">Male
+                <input type="radio">Female
+                <input type="radio">Others</section>
+                <section><label>Contact Number:</label>
+                <input type="tel" minlength="10" maxlength="10" required></section>
+                <section> <label>Email Address:</label>
+                <input type="email" required></section>
+                <section><label>Address:</label>
+                <textarea name="Address" rows="3"></textarea></section>
+            </div>
+             <div class="ED">
+                <h2>Employment Details</h2>
+                <section><label><span>*</span>Employee Id:</label>
+                <input type="text" required>
+                </section>
+                <section> <label>Department:</label>
+                <input type="text" required>
+                </section>
+                <section><label>Designation:</label>
+                <input type="text">
+                </section>
+                <section><label>Date of Joining:</label>
+                <input type="date">
+                </section>
+                <section><label><span>*</span>Employement Type:</label>
+                <select><option>Select</option>
+                    <option>Permanent</option>
+                    <option>Partime</option>
+                    <option>Contract</option>
+                </select></section>   
+             </div>
+        </div><br><br>
+        
+
+        
+        <div class="Group2">
+
+             <div class="Experience">
+                <h2>Education and Experience</h2>
+                <section><label><span>*</span>Highest Qualification:</label>
+                <select><option>Select</option>
+                    <option>UG</option>
+                    <option>PG</option>
+                    <option>HSC</option>
+                    <option>SSLC</option>
+                </select>
+                </section>
+                <section><label>Previous Work Experience:</label>
+                <textarea rows="3"></textarea>
+                </section>
+            </div>
+        
+            <div>
+                <h2>Emergencey Contact</h2><section><label>Name:</label>
+                <input type="text">
+                </section>
+                <section><label>Relationship:</label>
+                <input type="text">
+                </section>
+                <section><label>Contact Number:</label>
+                <input type="tel" minlength="10" maxlength="10">
+                </section>
+            </div>        
+        </div><br><br>
+        <div class="Button">
+            <button>Submit</button>
+            <button>Reset</button>
+        </div>
+        
+    </form>
+
+</body>
+</html>
